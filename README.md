@@ -1,7 +1,4 @@
-# Swarm mode of Docker engine
-
-## My Notes
-
+# Swarm mode of Docker engine : My notes
 
 ## Machine 
 
