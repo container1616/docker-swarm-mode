@@ -1,10 +1,10 @@
 # Swarm mode of Docker engine : My notes
 
-## Set-up 
+## Machines 
 
   Get three machines with your favourite cloud provider. This POC uses digital ocean ( Ubuntu 14.04, 512 MB RAM, single CPU) machine. 
   
-## First install docker (v1.12+)
+## Install docker (v1.12+)
 
 
     sudo apt-get update
@@ -21,7 +21,7 @@ run “docker info” to get the swarm info
 
     docker swarm join <<swarm manager>>:2377
 
-## Launch the containers. 
+## Launch the containers 
 
     docker service create --replicas 5 -p 32033:8080  --name service_name  <<image name >>
 
@@ -32,7 +32,7 @@ Once launched the application can be accessed at cluster machine(s) on following
 container instances can be scaled up or down with following command
 docker service scale service_name =2
 
-## Adding another machine as manager.
+## Adding another machine as manager
 
     docker swarm join --manager --listen-addr <<current swarm mananger machine ip>>:2377 <<machine ip address>>:2377
 
