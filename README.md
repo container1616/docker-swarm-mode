@@ -36,8 +36,8 @@ docker service scale service_name =2
 
     docker swarm join --manager --listen-addr <<current swarm mananger machine ip>>:2377 <<machine ip address>>:2377
 
-## Swarm up and running 
+### That's all now, docker swarm up and running 
 
 ## Complete reference
 
-  For complete reference and key concept please refer (https://docs.docker.com/engine/swarm/key-concepts/). All instruction are based on the tutorial provided in docker site.   
+  For complete reference and key concept please refer (https://docs.docker.com/engine/swarm/key-concepts/). All instructions are based on the tutorial provided in docker site.   
