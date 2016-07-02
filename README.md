@@ -1,4 +1,4 @@
-# Swarm mode of docker engine
+# Swarm mode of Docker engine
 
 
 ## Reading
@@ -15,7 +15,7 @@ sudo apt-get update
 curl -fsSL https://test.docker.com/ | sh
 
 
-# Start the swarm 
+## Start the swarm 
 
 docker swarm init --listen-addr <<swarm manager>>:2377
 
