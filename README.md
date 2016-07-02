@@ -1,7 +1,7 @@
 # Swarm mode of Docker engine
 
 
-## Reading
+## Complete reference
 
   For complete reference and key concept please refer (https://docs.docker.com/engine/swarm/key-concepts/). All instruction are based on the tutorial provided in docker site.  Though here are my notes. 
 
