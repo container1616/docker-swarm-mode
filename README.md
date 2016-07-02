@@ -1,9 +1,7 @@
 # Swarm mode of Docker engine
 
+## My Notes
 
-## Complete reference
-
-  For complete reference and key concept please refer (https://docs.docker.com/engine/swarm/key-concepts/). All instruction are based on the tutorial provided in docker site.  Though here are my notes. 
 
 ## Machine 
 
@@ -42,3 +40,7 @@ docker service scale service_name =2
     docker swarm join --manager --listen-addr <<current swarm mananger machine ip>>:2377 <<machine ip address>>:2377
 
 ## Swarm up and running 
+
+## Complete reference
+
+  For complete reference and key concept please refer (https://docs.docker.com/engine/swarm/key-concepts/). All instruction are based on the tutorial provided in docker site.   
